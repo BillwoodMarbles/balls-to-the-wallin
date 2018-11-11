@@ -13,6 +13,7 @@ import WeddingParty from "./components/WeddingParty";
 // styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './less/main.less';
+import Footer from "./components/Footer";
 
 export default class App extends Component {
     constructor() {
@@ -36,14 +37,6 @@ export default class App extends Component {
                 {
                     key: 3,
                     title: 'Photos'
-                },
-                {
-                    key: 4,
-                    title: 'Events'
-                },
-                {
-                    key: 5,
-                    title: 'RSVP'
                 }
             ]
         })
@@ -57,8 +50,7 @@ export default class App extends Component {
                 <OurStory/>
                 <WeddingParty/>
                 <Photos/>
-                <Events/>
-                <RSVP/>
+                <Footer/>
             </div>
         );
     }

@@ -31,6 +31,21 @@ module.exports = {
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"]
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: "file-loader"
+      },
+      {
+          test: /\.ttf$/,
+          use: [
+              {
+                  loader: 'ttf-loader',
+                  options: {
+                      name: './font/[hash].[ext]',
+                  }
+              }
+          ]
       }
     ]
   },

@@ -1,5 +1,6 @@
 html,
 body {
+  font-family: @font-family_secondary;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -13,4 +14,72 @@ body {
 #app,
 .app {
   height: 100%;
+}
+
+/* TYPOGRAPHY */
+h1, h2 {
+  font-family: @font-family_primary
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  color: @brand-red;
+  font-size: 44px;
+}
+
+/* HEADER */
+.site-header {
+  border-bottom: 2px solid @brand-red;
+}
+
+/* NAVIGATION */
+.navbar {
+  flex-flow: row wrap;
+
+  .navbar-brand {
+    color: @brand-red;
+    display: block;
+    font-family: @font-family_primary;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    color: @grey-light;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    .nav-link {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+}
+
+/* SECTIONS */
+.section {
+  padding: 50px 0;
+
+  &.section-blue {
+    background-color: @brand-blue;
+    color: @white;
+
+    h2 {
+      color: @white;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #efefef;
+  padding: 20px;
 }

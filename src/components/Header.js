@@ -17,13 +17,14 @@ class Header extends Component {
 
         return (
             <header className="site-header">
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-md navbar-light">
+                    <div className="navbar-brand">Harrison &amp; Brittney</div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarText">
-                        <ul className="navbar-nav">{navLinks}</ul>
+                        <ul className="navbar-nav mx-auto">{navLinks}</ul>
                     </div>
                 </nav>
             </header>
