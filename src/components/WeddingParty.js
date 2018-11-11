@@ -182,7 +182,7 @@ class WeddingParty extends Component {
 
         if (this.state.party) {
             party = this.state.party.map(person => {
-                return <div key={person.key}>
+                return <div key={person.key} className={`${person.key > this.state.party.length / 2 ? 'text-right' : 'text-left'}`}>
                     <a onMouseEnter={() => this.selectParty(person)}>
                         <div className={
                                 `image-block ${person.side} ${person.key === this.state.selectedGroom.key || person.key === this.state.selectedBride.key ? 'active' : ''}`
