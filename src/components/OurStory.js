@@ -16,17 +16,20 @@ class OurStory extends Component {
             stories: [
                 {
                     key: 1,
-                    title: 'Story #1',
-                    imgUrl: '/src/assets/img/main-bg.jpg',
+                    title: 'The Summer of 2010',
+                    imgUrl: '/src/assets/img/wedding-party/brittney.jpg',
                     story: `
-                        <p>Once upon a time, we had fun</p>
-                        <p>The fun was so great, that we laughed all day and it was great!</p>
+                        <p>It all started with nothing...</p>
+                        <p>
+                            Like, for real. Brittney first texted Harry a blank text. A quick reply from Harry being 
+                            "?" and a "whoops" from Brittney and the rest was history.
+                        </p>
                     `
                 },
                 {
                     key: 2,
                     title: 'Story #2',
-                    imgUrl: '/src/assets/img/main-bg.jpg',
+                    imgUrl: '/src/assets/img/wedding-party/harry.jpg',
                     story: `
                         <p>Once upon a time, we had fun</p>
                         <p>The fun was so great, that we laughed all day and it was great!</p>
@@ -35,7 +38,7 @@ class OurStory extends Component {
                 {
                     key: 3,
                     title: 'Story #3',
-                    imgUrl: '/src/assets/img/main-bg.jpg',
+                    imgUrl: '/src/assets/img/wedding-party/trent.jpg',
                     story: `
                         <p>Once upon a time, we had fun</p>
                         <p>The fun was so great, that we laughed all day and it was great!</p>

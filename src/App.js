@@ -19,11 +19,22 @@ export default class App extends Component {
     constructor() {
         super();
         this.state = {
+            activeHeader: false,
             navLinks: []
         }
     }
 
+    handleScroll() {
+        let isActive = $(window).scrollTop() > 50;
+
+        this.setState({
+            activeHeader: isActive
+        });
+    }
+
     componentWillMount() {
+        window.addEventListener('scroll', () => this.handleScroll());
+
         this.setState({
             navLinks: [
                 {
@@ -37,6 +48,10 @@ export default class App extends Component {
                 {
                     key: 3,
                     title: 'Photos'
+                },
+                {
+                    key: 4,
+                    title: 'Events'
                 }
             ]
         })
@@ -45,11 +60,12 @@ export default class App extends Component {
     render() {
         return (
             <div className="app">
-                <Header navLinks={this.state.navLinks}/>
+                <Header navLinks={this.state.navLinks} isActive={this.state.activeHeader}/>
                 <MainHero/>
                 <OurStory/>
                 <WeddingParty/>
                 <Photos/>
+                <Events/>
                 <Footer/>
             </div>
         );

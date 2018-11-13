@@ -199,21 +199,22 @@ class WeddingParty extends Component {
         }
 
         return (
-            <section id="wedding_party" className="section section-blue section-wedding-party">
+            <section id="wedding_party" className="section section-green section-wedding-party">
+                <div className="test-pattern"></div>
                 <div className="container">
                     <h2>Wedding Party</h2>
 
                     <div className="selected-container">
                         <div className="selected selected-bride">
                             <div className="selected-content">
-                                <div className={`front ${this.state.selectedBrideFront ? 'active' : ''}`}>
+                                <div className={`front ${this.state.selectedBrideFront ? 'active' : 'hidden'}`}>
                                     <h4>{this.state.selectedBrideF.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedBrideF.imgUrl})` } }>
                                     </div>
                                 </div>
 
-                                <div className={`back ${this.state.selectedBrideFront ? '' : 'active'}`}>
+                                <div className={`back ${this.state.selectedBrideFront ? 'hidden' : 'active'}`}>
                                     <h4>{this.state.selectedBrideB.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedBrideB.imgUrl})` } }>
@@ -224,14 +225,14 @@ class WeddingParty extends Component {
 
                         <div className="selected selected-groom">
                             <div className="selected-content">
-                                <div className={`front ${this.state.selectedGroomFront ? 'active' : ''}`}>
+                                <div className={`front ${this.state.selectedGroomFront ? 'active' : 'hidden'}`}>
                                     <h4>{this.state.selectedGroomF.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedGroomF.imgUrl})` } }>
                                     </div>
                                 </div>
 
-                                <div className={`back ${this.state.selectedGroomFront ? '' : 'active'}`}>
+                                <div className={`back ${this.state.selectedGroomFront ? 'hidden' : 'active'}`}>
                                     <h4>{this.state.selectedGroomB.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedGroomB.imgUrl})` } }>

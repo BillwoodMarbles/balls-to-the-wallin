@@ -16,7 +16,7 @@ class Header extends Component {
         }
 
         return (
-            <header className="site-header">
+            <header id="header" className={`site-header ${this.props.isActive ? 'active' : ''}`}>
                 <nav className="navbar navbar-expand-md navbar-light">
                     <div className="navbar-brand">Harrison &amp; Brittney</div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +33,7 @@ class Header extends Component {
 }
 
 Header.propTypes = {
+    isActive: PropTypes.bool,
     navLinks: PropTypes.arrayOf(
         PropTypes.shape({
             key: PropTypes.number,

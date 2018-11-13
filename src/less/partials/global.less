@@ -2,7 +2,7 @@ html,
 body {
   color: #333;
   font-family: @font-family_secondary;
-  font-size: 18px;
+  font-size: 20px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -34,12 +34,34 @@ h2 {
 }
 
 h3 {
+  font-size: 28px;
   margin-bottom: 25px;
 }
 
 /* HEADER */
 .site-header {
-  border-bottom: 2px solid @brand-red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  transition: all .5s ease;
+
+  .navbar-brand {
+    overflow: hidden;
+    height: 65px;
+    transition: all .5s ease;
+  }
+
+  &.active {
+    background: @white;
+    border-bottom: 1px solid @brand-red;
+
+    .navbar-brand {
+      height: 0;
+      padding: 0;
+    }
+  }
 }
 
 /* NAVIGATION */
@@ -57,7 +79,7 @@ h3 {
 
   .navbar-nav {
     color: @grey-light;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 
     .nav-link {
@@ -70,7 +92,8 @@ h3 {
 /* SECTIONS */
 .section {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 80px 0;
+  position: relative;
 
   &.section-blue {
     background-color: @brand-blue;
@@ -81,9 +104,34 @@ h3 {
     }
   }
 
+  &.section-green {
+    background-color: @brand-green;
+    color: @white;
+
+    h2 {
+      color: @white;
+    }
+  }
+
+  &.section-grey {
+    background-color: #f2f2f2;
+  }
+
   h2 {
     text-align: center;
   }
+}
+
+.test-pattern {
+  display: block;
+  width: 100%;
+  height: 100%;
+  //background-image: url('../../assets/img/pattern/test.svg');
+  //background-size: 50px;
+  opacity: .1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* OUR STORY */
@@ -95,6 +143,12 @@ h3 {
   @media (min-width: @screen-sm-min) {
     align-items: center;
     display: flex;
+    margin: 0 auto;
+  }
+
+  @media (min-width: @screen-lg-min) {
+    padding: 45px 60px;
+    width:  90%;
   }
 
   &:last-of-type {
@@ -143,10 +197,10 @@ h3 {
       background-size: cover;
       border-radius: 50%;
       display: inline-block;
-      height: 300px;
+      height: 275px;
       margin-bottom: 30px;
       position: relative;
-      width: 300px;
+      width: 275px;
 
       @media (min-width: @screen-sm-min) {
         margin-bottom: 0;
@@ -189,6 +243,15 @@ h3 {
 }
 
 /* WEDDING PARTY */
+.section-wedding-party {
+  background: #f5f5f5;
+  //border-bottom: 1px solid @grey-light;
+  //border-top: 1px solid @grey-light;
+
+  .container {
+    max-width: 1000px;
+  }
+}
 .selected-container {
   @media (min-width: @screen-sm-min) {
     align-items: center;
@@ -208,34 +271,26 @@ h3 {
 
     .back,
     .front {
-      opacity: 0;
-      transition: all .5s ease;
       z-index: 1;
+      top: 0;
+      right: 0;
 
       &.active {
-        opacity: 1;
         z-index: 2;
+        animation: test .5s ease forwards;
+      }
+
+      &.hidden {
+        animation: test2 .5s ease forwards;
       }
     }
 
     .front {
       position: relative;
-      top: 0;
-      left: -20px;
-
-      &.active {
-        left: 0;
-      }
     }
 
     .back {
       position: absolute;
-      top: 0;
-      left: 20px;
-
-      &.active {
-        left: 0;
-      }
     }
   }
 
@@ -248,8 +303,21 @@ h3 {
     display: inline-block;
     height: 300px;
     margin-bottom: 30px;
+    margin-top: 10px;
     position: relative;
     width: 300px;
+
+    &::after {
+      border-radius: 50%;
+      display: block;
+      content: '';
+      width: 314px;
+      height: 314px;
+      border: 1px solid @brand-green-light;
+      position: absolute;
+      top: -9px;
+      left: -9px;
+    }
   }
 }
 
@@ -258,7 +326,6 @@ h3 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 900px;
   margin: 0 auto;
 
   > div {
@@ -276,22 +343,22 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid @white;
+    border: 2px solid @brand-green-light;
     border-radius: 50%;
     display: inline-block;
-    height: 60px;
+    height: 75px;
     position: relative;
-    width: 60px;
+    width: 75px;
 
     &::after {
-      background-color: @white;
+      background-color: @brand-green-light;
       border-radius: 50%;
       content: '';
       height: 100%;
       position: absolute;
       top: 0;
       left: 0;
-      opacity: .6;
+      opacity: .5;
       width: 100%;
       transition: all .3s ease;
     }
@@ -316,8 +383,81 @@ h3 {
   }
 }
 
+/* BTN */
+.btn {
+  &.btn-outline-primary {
+    border-color: @brand-red !important;
+    border-radius: 0;
+    box-shadow: none !important;
+    color: @brand-red !important;
+
+    &:hover,
+    &:active {
+      background-color: @brand-red-light !important;
+    }
+  }
+}
+
+/* PHOTOS */
+.btn-container {
+  margin-bottom: 30px;
+  text-align: center;
+
+  .btn {
+    margin: 0 10px;
+  }
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 .5%;
+
+  .image-block {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    min-height: 250px;
+    margin: .25%;
+    position: relative;
+    width: 100%;
+    max-width: 24.5%;
+
+    &:hover {
+      &::after {
+        opacity: .5;
+      }
+    }
+
+    &::after {
+      background-color: @brand-red-light;
+      display: block;
+      content: '';
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      position: absolute;
+      transition: opacity .3s ease;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
 /* FOOTER */
 .site-footer {
-  background-color: #efefef;
+  border-top: 1px solid #efefef;
   padding: 20px;
+}
+
+@keyframes test {
+  0% { right: -20px; opacity: 0 }
+  100% { right: 0; opacity: 1 }
+}
+
+@keyframes test2 {
+  0% { right: 0; opacity: 1 }
+  100% { right: 20px; opacity: 0 }
 }
