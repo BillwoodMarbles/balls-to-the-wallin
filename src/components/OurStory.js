@@ -28,7 +28,7 @@ class OurStory extends Component {
                 },
                 {
                     key: 2,
-                    title: 'Story #2',
+                    title: 'We Bought a Zoo',
                     imgUrl: '/src/assets/img/wedding-party/harry.jpg',
                     story: `
                         <p>Once upon a time, we had fun</p>
@@ -37,7 +37,7 @@ class OurStory extends Component {
                 },
                 {
                     key: 3,
-                    title: 'Story #3',
+                    title: 'New York, New York',
                     imgUrl: '/src/assets/img/wedding-party/trent.jpg',
                     story: `
                         <p>Once upon a time, we had fun</p>
