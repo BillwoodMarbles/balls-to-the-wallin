@@ -17,11 +17,11 @@
       <file leaf-file-name="OurStory.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/OurStory.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="68" column="26" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="68" selection-end-column="26" />
+            <state relative-caret-position="197">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="e#9#50#0" expanded="true" />
-                <marker date="1542568142239" expanded="true" signature="647:881" ph="..." />
+                <marker date="1542574335276" expanded="true" signature="636:870" ph="..." />
               </folding>
             </state>
           </provider>
@@ -30,10 +30,9 @@
       <file leaf-file-name="Story.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Story.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
               <folding>
-                <element signature="e#9#50#0" expanded="true" />
                 <marker date="1542571343037" expanded="true" signature="489:698" ph="..." />
               </folding>
             </state>
@@ -52,21 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="646">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Photos.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Photos.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Photos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="125" column="16" lean-forward="true" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
               <folding>
                 <element signature="e#9#50#0" expanded="true" />
               </folding>
@@ -77,12 +76,12 @@
       <file leaf-file-name="Events.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+            <state relative-caret-position="544">
+              <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
               <folding>
                 <element signature="e#9#50#0" expanded="true" />
-                <marker date="1542571525772" expanded="true" signature="574:737" ph="..." />
-                <marker date="1542571525772" expanded="true" signature="997:1163" ph="..." />
+                <marker date="1542574570807" expanded="true" signature="565:728" ph="..." />
+                <marker date="1542574570807" expanded="true" signature="984:1150" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,8 +90,8 @@
       <file leaf-file-name="global.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/less/partials/global.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="249" column="14" lean-forward="false" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
+            <state relative-caret-position="118">
+              <caret line="468" column="19" lean-forward="false" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -112,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/NavLink.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -121,8 +120,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -148,6 +147,7 @@
       <find>PHOTO</find>
       <find>_interopRequireDefault</find>
       <find>_instafeed2</find>
+      <find>sectio</find>
     </findStrings>
     <replaceStrings>
       <replace>selectedGroom</replace>
@@ -178,15 +178,15 @@
         <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/NavLink.js" />
         <option value="$PROJECT_DIR$/src/components/WeddingParty.js" />
-        <option value="$PROJECT_DIR$/src/components/OurStory.js" />
         <option value="$PROJECT_DIR$/src/components/RSVP.js" />
         <option value="$PROJECT_DIR$/src/components/Instafeed.js" />
         <option value="$PROJECT_DIR$/src/components/Story.js" />
-        <option value="$PROJECT_DIR$/src/components/Photos.js" />
-        <option value="$PROJECT_DIR$/src/components/Events.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/less/partials/global.less" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/OurStory.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Events.js" />
+        <option value="$PROJECT_DIR$/src/less/partials/global.less" />
+        <option value="$PROJECT_DIR$/src/components/Photos.js" />
       </list>
     </option>
   </component>
@@ -332,12 +332,12 @@
       <workItem from="1541912049763" duration="17000" />
       <workItem from="1541912080337" duration="29847000" />
       <workItem from="1542123139346" duration="724000" />
-      <workItem from="1542562613322" duration="9250000" />
+      <workItem from="1542562613322" duration="12219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52337000" />
+    <option name="totallyTimeSpent" value="55306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -682,12 +682,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Story.js">
+    <entry file="file://$PROJECT_DIR$/src/components/MainHero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OurStory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="e#9#50#0" expanded="true" />
+            <marker date="1542574335276" expanded="true" signature="636:870" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Story.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
+          <folding>
             <marker date="1542571343037" expanded="true" signature="489:698" ph="..." />
           </folding>
         </state>
@@ -703,76 +745,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Photos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#9#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="544">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
           <folding>
             <element signature="e#9#50#0" expanded="true" />
-            <marker date="1542571525772" expanded="true" signature="574:737" ph="..." />
-            <marker date="1542571525772" expanded="true" signature="997:1163" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MainHero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavLink.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/OurStory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="68" column="26" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="68" selection-end-column="26" />
-          <folding>
-            <element signature="e#9#50#0" expanded="true" />
-            <marker date="1542568142239" expanded="true" signature="647:881" ph="..." />
+            <marker date="1542574570807" expanded="true" signature="565:728" ph="..." />
+            <marker date="1542574570807" expanded="true" signature="984:1150" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/partials/global.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="249" column="14" lean-forward="false" selection-start-line="249" selection-start-column="14" selection-end-line="249" selection-end-column="14" />
+        <state relative-caret-position="118">
+          <caret line="468" column="19" lean-forward="false" selection-start-line="468" selection-start-column="19" selection-end-line="468" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/Photos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="125" column="16" lean-forward="true" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+          <folding>
+            <element signature="e#9#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

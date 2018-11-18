@@ -25,7 +25,7 @@ export default class App extends Component {
             navLinks: []
         };
 
-        configureAnchors({offset: -60});
+        configureAnchors({offset: -40});
     }
 
     handleScroll() {

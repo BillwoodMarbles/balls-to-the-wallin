@@ -38,6 +38,16 @@ h3 {
   margin-bottom: 25px;
 }
 
+a {
+  color: @brand-red;
+  transition: color .2s ease;
+
+  &:hover {
+    color: @brand-green;
+    text-decoration: none;
+  }
+}
+
 /* HEADER */
 .site-header {
   position: fixed;
@@ -456,11 +466,21 @@ h3 {
 
 /* PHOTOS */
 .btn-container {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 
   .btn {
-    margin: 0 10px;
+    margin: 0 10px 10px;
+  }
+}
+
+.section-photos {
+  p {
+    color: #636363;
+    font-size: 18px;
+  }
+  strong {
+    color: @brand-red;
   }
 }
 

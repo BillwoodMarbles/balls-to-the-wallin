@@ -19,7 +19,7 @@ class Events extends Component {
                 {
                     key: 1,
                     title: 'The Wedding',
-                    imgUrl: '/src/assets/img/wedding-party/brittney.jpg',
+                    imgUrl: '/src/assets/img/events/hawaii.jpg',
                     story: `
                         <p>
                             <strong>When:</strong> April 6th, 2019<br />
@@ -30,7 +30,7 @@ class Events extends Component {
                 {
                     key: 2,
                     title: 'The Reception',
-                    imgUrl: '/src/assets/img/wedding-party/harry.jpg',
+                    imgUrl: '/src/assets/img/events/nebraska.jpg',
                     story: `
                          <p>
                             <strong>When:</strong> May 11th, 2019<br />
