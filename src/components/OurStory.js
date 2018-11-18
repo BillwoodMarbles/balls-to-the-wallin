@@ -1,5 +1,7 @@
 // react
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
+
 // components
 import Story from "./Story";
 
@@ -51,19 +53,22 @@ class OurStory extends Component {
     render() {
         let stories;
 
-        if (this.state.stories) {
+        if (this.state.stories && this.state.stories.length) {
             stories = this.state.stories.map(story => {
                 return <Story key={story.key} story={story}/>
             })
         }
 
+
         return (
-            <section id="our_story" className="section section-our-story">
-                <div className="container">
-                    <h2>Our Story</h2>
-                    {stories}
-                </div>
-            </section>
+            <ScrollableAnchor id={'our_story'}>
+                <section className="section section-our-story">
+                    <div className="container">
+                        <h2>Our Story</h2>
+                        {stories}
+                    </div>
+                </section>
+            </ScrollableAnchor>
         );
     }
 }

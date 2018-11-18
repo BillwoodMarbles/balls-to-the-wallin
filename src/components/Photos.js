@@ -1,11 +1,13 @@
 // react
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 class Photos extends Component {
     constructor() {
         super();
         this.state = {
             engagement: [],
+            instagram: [],
             wedding: []
         };
     }
@@ -81,14 +83,10 @@ class Photos extends Component {
                 }
             ],
             wedding: [
-                {
-                    key: 1,
-                    imgUrl: '/src/assets/img/wedding-party/brittney.jpg',
-                },
-                {
-                    key: 2,
-                    imgUrl: '/src/assets/img/wedding-party/harry.jpg'
-                }
+
+            ],
+            instagram: [
+
             ]
         });
     }
@@ -102,7 +100,7 @@ class Photos extends Component {
     render() {
         let gallery;
 
-        if (this.state.gallery) {
+        if (this.state.gallery && this.state.gallery.length) {
             gallery = this.state.gallery.map(photo => {
                 return <a href={photo.imgUrl} data-fancybox="gallery-all" key={photo.key} className={`image-block`}
                              style={
@@ -111,23 +109,26 @@ class Photos extends Component {
                                  }
                              }>
                         </a>
-            })
+            });
         }
 
         return (
-            <section id="photos" className="section section-photos">
-                <h2>Photos</h2>
+            <ScrollableAnchor id={'photos'}>
+                <section className="section section-photos">
+                    <h2>Photos</h2>
 
-                <div className="btn-container">
-                    <button className="btn btn-outline-primary" onClick={() => this.selectGallery('engagement')}>ENGAGEMENT</button>
-                    <button className="btn btn-outline-primary" onClick={() => this.selectGallery('wedding')}>WEDDING</button>
-                    <button className="btn btn-outline-primary" onClick={() => this.selectGallery('instagram')}>#Balls2TheWallin</button>
-                </div>
+                    <div className="btn-container">
+                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('engagement')}>ENGAGEMENT</button>
+                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('wedding')}>WEDDING</button>
+                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('instagram')}>#Balls2TheWallin</button>
+                    </div>
 
-                <div className="gallery-container">
-                    {gallery}
-                </div>
-            </section>
+                    <div className="gallery-container">
+                        {gallery}
+                        {!gallery && (<h3>Coming Soon...</h3>)}
+                    </div>
+                </section>
+            </ScrollableAnchor>
         );
     }
 }

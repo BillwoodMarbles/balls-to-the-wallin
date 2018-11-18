@@ -1,5 +1,7 @@
 // react
 import React, {Component} from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 
 // components
 import Events from "./components/Events";
@@ -21,15 +23,20 @@ export default class App extends Component {
         this.state = {
             activeHeader: false,
             navLinks: []
-        }
+        };
+
+        configureAnchors({offset: -60});
     }
 
     handleScroll() {
+        let prevActive = this.state.activeHeader;
         let isActive = $(window).scrollTop() > 50;
 
-        this.setState({
-            activeHeader: isActive
-        });
+        if (isActive !== prevActive) {
+            this.setState({
+                activeHeader: isActive
+            });
+        }
     }
 
     componentWillMount() {
@@ -39,19 +46,28 @@ export default class App extends Component {
             navLinks: [
                 {
                     key: 1,
+                    anchor: 'our_story',
                     title: 'Our Story'
                 },
                 {
                     key: 2,
+                    anchor: 'wedding_party',
                     title: 'Wedding Party'
                 },
                 {
                     key: 3,
+                    anchor: 'photos',
                     title: 'Photos'
                 },
                 {
                     key: 4,
+                    anchor: 'events',
                     title: 'Events'
+                },
+                {
+                    key: 5,
+                    anchor: 'rsvp',
+                    title: 'RSVP'
                 }
             ]
         })
@@ -66,6 +82,7 @@ export default class App extends Component {
                 <WeddingParty/>
                 <Photos/>
                 <Events/>
+                <RSVP/>
                 <Footer/>
             </div>
         );

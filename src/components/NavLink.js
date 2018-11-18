@@ -6,7 +6,7 @@ class NavLink extends Component {
     render() {
         return (
             <li className="nav-item">
-                <a href="#" className="nav-link">{this.props.navLink.title}</a>
+                <a href={'#' + this.props.navLink.anchor} className="nav-link">{this.props.navLink.title}</a>
             </li>
         );
     }
