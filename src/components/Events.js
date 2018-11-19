@@ -25,6 +25,7 @@ class Events extends Component {
                             <strong>When:</strong> April 6th, 2019<br />
                             <strong>Where:</strong> Oahu, HI
                         </p>
+                        <p>More details to come</p>
                     `
                 },
                 {
@@ -36,6 +37,7 @@ class Events extends Component {
                             <strong>When:</strong> May 11th, 2019<br />
                             <strong>Where:</strong> Bellevue, NE
                         </p>
+                        <p>More details to come</p>
                     `
                 }
             ]

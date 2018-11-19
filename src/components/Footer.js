@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="site-footer">
-
+                Harrison &amp; Brittney | April 6th, 2019
             </footer>
         );
     }
