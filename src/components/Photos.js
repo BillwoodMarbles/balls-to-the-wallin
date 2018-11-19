@@ -83,7 +83,33 @@ class Photos extends Component {
         ];
 
         const weddingPhotos = [];
-        const instagramPhotos =[];
+        const instagramPhotos =[
+            {
+                key: 1,
+                imgUrl: '/src/assets/img/hashtag/1.jpg'
+            },
+            {
+                key: 2,
+                imgUrl: '/src/assets/img/hashtag/2.jpg'
+            },
+            {
+                key: 3,
+                imgUrl: '/src/assets/img/hashtag/3.jpg'
+            },
+            {
+                key: 4,
+                imgUrl: '/src/assets/img/hashtag/4.jpg'
+            },
+            {
+                key: 5,
+                imgUrl: '/src/assets/img/hashtag/5.jpg'
+            },
+            {
+                key: 6,
+                imgUrl: '/src/assets/img/hashtag/6.jpg'
+            }
+
+        ];
 
         this.setState({
             gallery: engagementPhotos,
@@ -130,8 +156,8 @@ class Photos extends Component {
 
                     <div className="btn-container">
                         <button className="btn btn-outline-primary" onClick={() => this.selectGallery('engagement')}>ENGAGEMENT</button>
-                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('wedding')}>WEDDING</button>
                         <button className="btn btn-outline-primary" onClick={() => this.selectGallery('instagram')}>#Balls2TheWallin</button>
+                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('wedding')}>WEDDING</button>
                     </div>
 
                     <p className="text-center" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(additionalCopy)}}></p>

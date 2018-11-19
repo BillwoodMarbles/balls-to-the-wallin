@@ -55,6 +55,8 @@ class Events extends Component {
         return (
             <ScrollableAnchor id={'events'}>
                 <section className="section section-grey section-events">
+                    <div className="overlay-leaves"></div>
+
                     <div className="container">
                         <h2>Events</h2>
 

@@ -202,7 +202,8 @@ class WeddingParty extends Component {
         return (
             <ScrollableAnchor id={'wedding_party'}>
                 <section className="section section-green section-wedding-party">
-                    <div className="test-pattern"></div>
+                    <div className="overlay-green"></div>
+
                     <div className="container">
                         <h2>Wedding Party</h2>
 
