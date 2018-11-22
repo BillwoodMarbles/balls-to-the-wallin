@@ -404,6 +404,15 @@ a {
     position: relative;
     width: 300px;
 
+    h4 {
+      margin-bottom: 2px;
+    }
+
+    h5 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
     .back,
     .front {
       z-index: 1;
@@ -437,7 +446,7 @@ a {
     border-radius: 50%;
     display: inline-block;
     height: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-top: 10px;
     position: relative;
     width: 300px;
@@ -463,12 +472,8 @@ a {
   flex-wrap: wrap;
   margin: 0 auto;
 
-  @media (min-width: @screen-sm-min) {
-
-  }
-
   > div {
-    flex-basis: 50%;
+    flex-basis: 100%;
     text-align: center;
 
     @media (min-width: @screen-sm-min) {
@@ -488,7 +493,23 @@ a {
   }
 
   .image-block-container {
+    margin-bottom: 10px;
+
+    h4 {
+      margin-bottom: 2px;
+    }
+
+    h5 {
+      font-size: 18px;
+    }
+
     @media (min-width: @screen-sm-min) {
+      margin-bottom: 0;
+
+      h4, h5 {
+        display: none;
+      }
+
       &.top {
         text-align: left;
       }
@@ -506,9 +527,10 @@ a {
     border: 2px solid @white;
     border-radius: 50%;
     display: inline-block;
-    height: 35vw;
+    height: 250px;
     position: relative;
-    width: 75%;
+    width: 250px;
+    max-width: 100%;
 
     @media (min-width: @screen-sm-min) {
       height: 75px;

@@ -6,7 +6,7 @@ class MainHero extends Component {
     render() {
         return (
             <section className="hero hero-main" style={{'backgroundImage': `url(${Background})`}}>
-
+                <h1>April 6th, 2019</h1>
             </section>
         );
     }

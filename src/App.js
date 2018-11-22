@@ -1,6 +1,5 @@
 // react
 import React, {Component} from 'react';
-import {configureAnchors} from 'react-scrollable-anchor'
 
 // components
 import Events from "./components/Events";
@@ -25,8 +24,6 @@ export default class App extends Component {
             activeHeader: false,
             navLinks: []
         };
-
-        configureAnchors({offset: -30, keepLastAnchorHash: true});
     }
 
     handleScroll() {

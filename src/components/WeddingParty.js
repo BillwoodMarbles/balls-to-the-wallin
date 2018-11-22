@@ -87,6 +87,7 @@ class WeddingParty extends Component {
         let selectedBride = {
             key: 1,
             name: 'Brittney Jurgens',
+            subtitle: 'The Bride',
             imgUrl: Brittney,
             side: 'bride'
         };
@@ -94,6 +95,7 @@ class WeddingParty extends Component {
         let selectedGroom = {
             key: 2,
             name: 'Harrison Wallin',
+            subtitle: 'The Groom',
             imgUrl: Harry,
             side: 'groom'
         };
@@ -107,84 +109,98 @@ class WeddingParty extends Component {
                 {
                     key: 1,
                     name: 'Brittney Jurgens',
+                    subtitle: 'The Bride',
                     imgUrl: Brittney,
                     side: 'bride'
                 },
                 {
                     key: 2,
                     name: 'Harrison Wallin',
+                    subtitle: 'The Groom',
                     imgUrl: Harry,
                     side: 'groom'
                 },
                 {
                     key: 3,
                     name: 'Jenna Rozanek',
+                    subtitle: 'The Maid of Honor',
                     imgUrl: Jenna,
                     side: 'bride'
                 },
                 {
                     key: 4,
                     name: 'Justin Wallin',
+                    subtitle: 'The Best Man',
                     imgUrl: Justin,
                     side: 'groom'
                 },
                 {
                     key: 5,
                     name: 'Paige Pohlmeier',
+                    subtitle: 'The Newly Wed BFF',
                     imgUrl: Paige,
                     side: 'bride'
                 },
                 {
                     key: 6,
                     name: 'Jake Heim',
+                    subtitle: 'The Best Cousin',
                     imgUrl: Jake,
                     side: 'groom'
                 },
                 {
                     key: 7,
                     name: 'Brittney McCarthy',
+                    subtitle: 'The New Mom BFF',
                     imgUrl: BrittneyM,
                     side: 'bride'
                 },
                 {
                     key: 8,
                     name: 'Brock Pohlmeier',
+                    subtitle: 'The Smartest Friend',
                     imgUrl: Brock,
                     side: 'groom'
                 },
                 {
                     key: 9,
                     name: 'Nicole Zach',
+                    subtitle: 'The New Business Owner BFF',
                     imgUrl: Nicole,
                     side: 'bride'
                 },
                 {
                     key: 10,
                     name: 'Matt Haith',
+                    subtitle: 'The Most Stylish Friend',
                     imgUrl: Matt,
                     side: 'groom'
                 },
                 {
                     key: 11,
                     name: 'Katherine Ringenberg',
+                    subtitle: 'The Snowboarding BFF',
                     imgUrl: Kat,
                     side: 'bride'
                 },
                 {
                     key: 12,
                     name: 'Trent Smith',
+                    subtitle: 'The Trent Smith',
                     imgUrl: Trent,
                     side: 'groom'
                 },
                 {
                     key: 13,
                     name: 'Nikki Kohles',
+                    subtitle: 'The Social Butterfly BFF',
                     imgUrl: Nikki,
                     side: 'bride'
                 },
                 {
                     key: 14,
                     name: 'Dwayne Pierce',
+                    subtitle: 'The Snowboarding/Drinking Buddy',
                     imgUrl: Dwayne,
                     side: 'groom'
                 }
@@ -208,6 +224,9 @@ class WeddingParty extends Component {
                                 }
                              }>
                         </div>
+
+                        <h4>{person.name}</h4>
+                        <h5>{person.subtitle}</h5>
                     </a>
                 </div>
             })
@@ -224,17 +243,19 @@ class WeddingParty extends Component {
                         <div className="selected selected-bride">
                             <div className="selected-content">
                                 <div className={`front ${this.state.selectedBrideFront ? 'active' : 'hidden'}`}>
-                                    <h4>{this.state.selectedBrideF.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedBrideF.imgUrl})` } }>
                                     </div>
+                                    <h4>{this.state.selectedBrideF.name}</h4>
+                                    <h5>{this.state.selectedBrideF.subtitle}</h5>
                                 </div>
 
                                 <div className={`back ${this.state.selectedBrideFront ? 'hidden' : 'active'}`}>
-                                    <h4>{this.state.selectedBrideB.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedBrideB.imgUrl})` } }>
                                     </div>
+                                    <h4>{this.state.selectedBrideB.name}</h4>
+                                    <h5>{this.state.selectedBrideB.subtitle}</h5>
                                 </div>
                             </div>
                         </div>
@@ -242,17 +263,19 @@ class WeddingParty extends Component {
                         <div className="selected selected-groom">
                             <div className="selected-content">
                                 <div className={`front ${this.state.selectedGroomFront ? 'active' : 'hidden'}`}>
-                                    <h4>{this.state.selectedGroomF.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedGroomF.imgUrl})` } }>
                                     </div>
+                                    <h4>{this.state.selectedGroomF.name}</h4>
+                                    <h5>{this.state.selectedGroomF.subtitle}</h5>
                                 </div>
 
                                 <div className={`back ${this.state.selectedGroomFront ? 'hidden' : 'active'}`}>
-                                    <h4>{this.state.selectedGroomB.name}</h4>
                                     <div className="image-block"
                                          style={ {'backgroundImage': `url(${this.state.selectedGroomB.imgUrl})` } }>
                                     </div>
+                                    <h4>{this.state.selectedGroomB.name}</h4>
+                                    <h5>{this.state.selectedGroomB.subtitle}</h5>
                                 </div>
                             </div>
                         </div>
