@@ -1,10 +1,10 @@
 // react
 import React, {Component} from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
-import { configureAnchors } from 'react-scrollable-anchor'
+import {configureAnchors} from 'react-scrollable-anchor'
 
 // components
 import Events from "./components/Events";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainHero from "./components/MainHero";
 import OurStory from "./components/OurStory";
@@ -15,7 +15,8 @@ import WeddingParty from "./components/WeddingParty";
 // styles
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './less/main.less';
-import Footer from "./components/Footer";
+import 'bootstrap/dist/js/bootstrap.js';
+import 'popper.js/dist/popper.min';
 
 export default class App extends Component {
     constructor() {

@@ -20,4 +20,13 @@
 
 <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.js"></script>
+
+<script>
+    $(function(){
+        var navMain = $("#navMain");
+        navMain.on("click", "a", null, function () {
+            navMain.removeClass('show');
+        });
+    });
+</script>
 </html>

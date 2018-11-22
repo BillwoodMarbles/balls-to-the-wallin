@@ -5,6 +5,10 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 // components
 import Story from "./Story";
 
+// images
+import Hawaii from '../assets/img/events/hawaii.jpg';
+import Nebraska from '../assets/img/events/nebraska.jpg';
+
 class Events extends Component {
     constructor() {
         super();
@@ -19,7 +23,7 @@ class Events extends Component {
                 {
                     key: 1,
                     title: 'The Wedding',
-                    imgUrl: '/src/assets/img/events/hawaii.jpg',
+                    imgUrl: Hawaii,
                     story: `
                         <p>
                             <strong>When:</strong> April 6th, 2019<br />
@@ -31,7 +35,7 @@ class Events extends Component {
                 {
                     key: 2,
                     title: 'The Reception',
-                    imgUrl: '/src/assets/img/events/nebraska.jpg',
+                    imgUrl: Nebraska,
                     story: `
                          <p>
                             <strong>When:</strong> May 11th, 2019<br />

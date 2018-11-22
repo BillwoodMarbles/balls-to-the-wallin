@@ -3,6 +3,12 @@ import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 import DOMPurify from 'dompurify'
 
+const reqEngagement = require.context ( '../assets/img/engagement', true, /\.jpg/ );
+const engagmentImages = reqEngagement.keys().map( path => reqEngagement ( path ) );
+
+const reqHashtag = require.context ( '../assets/img/hashtag', true, /\.jpg/ );
+const hashtagImages = reqHashtag.keys().map( path => reqHashtag ( path ) );
+
 class Photos extends Component {
     constructor() {
         super();
@@ -18,67 +24,67 @@ class Photos extends Component {
         const engagementPhotos = [
             {
                 key: 1,
-                imgUrl: '/src/assets/img/engagement/engage_1.jpg',
+                imgUrl: engagmentImages[0],
             },
             {
                 key: 2,
-                imgUrl: '/src/assets/img/engagement/engage_2.jpg',
+                imgUrl: engagmentImages[1],
             },
             {
                 key: 3,
-                imgUrl: '/src/assets/img/engagement/engage_3.jpg',
+                imgUrl: engagmentImages[2],
             },
             {
                 key: 4,
-                imgUrl: '/src/assets/img/engagement/engage_4.jpg',
+                imgUrl: engagmentImages[3],
             },
             {
                 key: 5,
-                imgUrl: '/src/assets/img/engagement/engage_5.jpg',
+                imgUrl: engagmentImages[4],
             },
             {
                 key: 6,
-                imgUrl: '/src/assets/img/engagement/engage_6.jpg',
+                imgUrl: engagmentImages[5],
             },
             {
                 key: 7,
-                imgUrl: '/src/assets/img/engagement/engage_7.jpg',
+                imgUrl: engagmentImages[6],
             },
             {
                 key: 8,
-                imgUrl: '/src/assets/img/engagement/engage_8.jpg',
+                imgUrl: engagmentImages[7],
             },
             {
                 key: 9,
-                imgUrl: '/src/assets/img/engagement/engage_9.jpg',
+                imgUrl: engagmentImages[8],
             },
             {
                 key: 10,
-                imgUrl: '/src/assets/img/engagement/engage_10.jpg',
+                imgUrl: engagmentImages[9],
             },
             {
                 key: 11,
-                imgUrl: '/src/assets/img/engagement/engage_11.jpg',
+                imgUrl: engagmentImages[10],
             },
             {
                 key: 12,
-                imgUrl: '/src/assets/img/engagement/engage_12.jpg',
+                imgUrl: engagmentImages[11],
             },
             {
                 key: 13,
-                imgUrl: '/src/assets/img/engagement/engage_13.jpg',
+                imgUrl: engagmentImages[12],
             },
             {
                 key: 14,
-                imgUrl: '/src/assets/img/engagement/engage_14.jpg',
+                imgUrl: engagmentImages[13],
             },
             {
                 key: 15,
-                imgUrl: '/src/assets/img/engagement/engage_15.jpg',
+                imgUrl: engagmentImages[14],
             },
             {
                 key: 16,
-                imgUrl: '/src/assets/img/engagement/engage_16.jpg',
+                imgUrl: engagmentImages[15],
             }
         ];
 
@@ -86,27 +92,27 @@ class Photos extends Component {
         const instagramPhotos =[
             {
                 key: 1,
-                imgUrl: '/src/assets/img/hashtag/1.jpg'
+                imgUrl: hashtagImages[0]
             },
             {
                 key: 2,
-                imgUrl: '/src/assets/img/hashtag/2.jpg'
+                imgUrl: hashtagImages[1]
             },
             {
                 key: 3,
-                imgUrl: '/src/assets/img/hashtag/3.jpg'
+                imgUrl: hashtagImages[2]
             },
             {
                 key: 4,
-                imgUrl: '/src/assets/img/hashtag/4.jpg'
+                imgUrl: hashtagImages[3]
             },
             {
                 key: 5,
-                imgUrl: '/src/assets/img/hashtag/5.jpg'
+                imgUrl: hashtagImages[4]
             },
             {
                 key: 6,
-                imgUrl: '/src/assets/img/hashtag/6.jpg'
+                imgUrl: hashtagImages[5]
             }
 
         ];

@@ -5,6 +5,11 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 // components
 import Story from "./Story";
 
+// images
+import Couch from '../assets/img/story/couch.jpg';
+import Mountains from '../assets/img/story/mountains.jpg';
+import NewYork from '../assets/img/story/newyork.jpg';
+
 class OurStory extends Component {
     constructor() {
         super();
@@ -19,7 +24,7 @@ class OurStory extends Component {
                 {
                     key: 1,
                     title: 'It all started with nothing...',
-                    imgUrl: '/src/assets/img/story/couch.jpg',
+                    imgUrl: Couch,
                     story: `
                         <p>
                             Like, for real. Brittney first texted Harry a blank text. A quick reply from Harry being 
@@ -33,7 +38,7 @@ class OurStory extends Component {
                 {
                     key: 2,
                     title: 'We Bought a Zoo',
-                    imgUrl: '/src/assets/img/story/mountains.jpg',
+                    imgUrl: Mountains,
                     story: `
                         <p>Off to Lincoln, NE we went to finish our college degrees, watch husker football, and take care of 3 fur balls. Keely, our Siberian husky, came first. Then Kitten, and then we got a screaming maniac of a cat, Lucille. Probably the reason why we haven’t gotten anymore :) No, we love them all equally- but of course, I mean, Keely is the best.</p>
                         <p>
@@ -43,7 +48,7 @@ We’re still taking care of the three, but our scenery has changed a bit. We gr
                 {
                     key: 3,
                     title: 'Surprise Surprise',
-                    imgUrl: '/src/assets/img/story/newyork.jpg',
+                    imgUrl: NewYork,
                     story: `
                         <p>Something we have always done in our relationship and have loved doing for one another is surprising each other. Whether it be with small gifts, date nights, or vacations.  Brittney once surprised Harry with a trip to Las Vegas and made him solve a scavenger hunt to figure it out.  The last puzzle was a word jumble of “Vegas Baby” and Harry thought Brittney was announcing a pregnancy guessing “Baby Gaves.” Obviously, the surprise was quite the opposite with a weekend in Vegas :)</p>
                         <p>Another surprise that sticks out over the years was when Harry surprised Brittney with a trip to Hawaii. He made our apartment into an elaborate escape room with different padlocks and everything.  Even with all of that, Harry out did himself when he surprised Brittney with a ring.</p>

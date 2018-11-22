@@ -2,6 +2,22 @@
 import React, { Component } from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor'
 
+// images
+import Brittney from '../assets/img/wedding-party/brittney.jpg';
+import Jenna from '../assets/img/wedding-party/jenna.jpg';
+import Kat from '../assets/img/wedding-party/kat.jpg';
+import BrittneyM from '../assets/img/wedding-party/brittney-m.jpg';
+import Nikki from '../assets/img/wedding-party/nikki.jpg';
+import Paige from '../assets/img/wedding-party/paige.jpg';
+import Nicole from '../assets/img/wedding-party/nicole.jpg';
+import Harry from '../assets/img/wedding-party/harry.jpg';
+import Jake from '../assets/img/wedding-party/jake.jpg';
+import Dwayne from '../assets/img/wedding-party/dwayne.jpg';
+import Matt from '../assets/img/wedding-party/matt.jpg';
+import Trent from '../assets/img/wedding-party/trent.jpg';
+import Brock from '../assets/img/wedding-party/brock.jpg';
+import Justin from '../assets/img/wedding-party/justin.jpg';
+
 class WeddingParty extends Component {
     constructor() {
         super();
@@ -15,7 +31,6 @@ class WeddingParty extends Component {
             selectedGroomF: {},
             selectedGroomB: {},
             selectedGroomFront: true,
-
         };
 
         this.selectParty = this.selectParty.bind(this);
@@ -73,14 +88,14 @@ class WeddingParty extends Component {
         let selectedBride = {
             key: 1,
             name: 'Brittney Jurgens',
-            imgUrl: '/src/assets/img/wedding-party/brittney.jpg',
+            imgUrl: Brittney,
             side: 'bride'
         };
 
         let selectedGroom = {
             key: 2,
             name: 'Harrison Wallin',
-            imgUrl: '/src/assets/img/wedding-party/harry.jpg',
+            imgUrl: Harry,
             side: 'groom'
         };
 
@@ -93,85 +108,85 @@ class WeddingParty extends Component {
                 {
                     key: 1,
                     name: 'Brittney Jurgens',
-                    imgUrl: '/src/assets/img/wedding-party/brittney.jpg',
+                    imgUrl: Brittney,
                     side: 'bride'
                 },
                 {
                     key: 2,
                     name: 'Harrison Wallin',
-                    imgUrl: '/src/assets/img/wedding-party/harry.jpg',
+                    imgUrl: Harry,
                     side: 'groom'
                 },
                 {
                     key: 3,
                     name: 'Jenna Rozanek',
-                    imgUrl: '/src/assets/img/wedding-party/jenna.jpg',
+                    imgUrl: Jenna,
                     side: 'bride'
                 },
                 {
                     key: 4,
                     name: 'Justin Wallin',
-                    imgUrl: '/src/assets/img/wedding-party/justin.jpg',
+                    imgUrl: Justin,
                     side: 'groom'
                 },
                 {
                     key: 5,
                     name: 'Paige Pohlmeier',
-                    imgUrl: '/src/assets/img/wedding-party/paige.jpg',
+                    imgUrl: Paige,
                     side: 'bride'
                 },
                 {
                     key: 6,
                     name: 'Jake Heim',
-                    imgUrl: '/src/assets/img/wedding-party/jake.jpg',
+                    imgUrl: Jake,
                     side: 'groom'
                 },
                 {
                     key: 7,
                     name: 'Brittney McCarthy',
-                    imgUrl: '/src/assets/img/wedding-party/brittney-m.jpg',
+                    imgUrl: BrittneyM,
                     side: 'bride'
                 },
                 {
                     key: 8,
                     name: 'Brock Pohlmeier',
-                    imgUrl: '/src/assets/img/wedding-party/brock.jpg',
+                    imgUrl: Brock,
                     side: 'groom'
                 },
                 {
                     key: 9,
                     name: 'Nicole Zach',
-                    imgUrl: '/src/assets/img/wedding-party/nicole.jpg',
+                    imgUrl: Nicole,
                     side: 'bride'
                 },
                 {
                     key: 10,
                     name: 'Matt Haith',
-                    imgUrl: '/src/assets/img/wedding-party/matt.jpg',
+                    imgUrl: Matt,
                     side: 'groom'
                 },
                 {
                     key: 11,
                     name: 'Katherine Ringenberg',
-                    imgUrl: '/src/assets/img/wedding-party/kat.jpg',
+                    imgUrl: Kat,
                     side: 'bride'
                 },
                 {
                     key: 12,
                     name: 'Trent Smith',
-                    imgUrl: '/src/assets/img/wedding-party/trent.jpg',
+                    imgUrl: Trent,
                     side: 'groom'
                 },
                 {
                     key: 13,
                     name: 'Nikki Kohles',
-                    imgUrl: '/src/assets/img/wedding-party/nikki.jpg',
+                    imgUrl: Nikki,
                     side: 'bride'
                 },
                 {
                     key: 14,
                     name: 'Dwayne Pierce',
-                    imgUrl: '/src/assets/img/wedding-party/dwayne.jpg',
+                    imgUrl: Dwayne,
                     side: 'groom'
                 }
             ]
@@ -183,7 +198,7 @@ class WeddingParty extends Component {
 
         if (this.state.party) {
             party = this.state.party.map(person => {
-                return <div key={person.key} className={`${person.key > this.state.party.length / 2 ? 'text-right' : 'text-left'}`}>
+                return <div key={person.key} className={`${person.key > this.state.party.length / 2 ? 'bottom' : 'top'} image-block-container`}>
                     <a onMouseEnter={() => this.selectParty(person)}>
                         <div className={
                                 `image-block ${person.side} ${person.key === this.state.selectedGroom.key || person.key === this.state.selectedBride.key ? 'active' : ''}`
