@@ -1,6 +1,5 @@
 // react
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 import DOMPurify from 'dompurify'
 
 const reqEngagement = require.context ( '../assets/img/engagement', true, /\.jpg/ );
@@ -156,24 +155,22 @@ class Photos extends Component {
         }
 
         return (
-            <ScrollableAnchor id={'photos'}>
-                <section className="section section-photos">
-                    <h2>Photos</h2>
+            <section id={'photos'} className="section section-photos">
+                <h2>Photos</h2>
 
-                    <div className="btn-container">
-                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('engagement')}>ENGAGEMENT</button>
-                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('instagram')}>#Balls2TheWallin</button>
-                        <button className="btn btn-outline-primary" onClick={() => this.selectGallery('wedding')}>WEDDING</button>
-                    </div>
+                <div className="btn-container">
+                    <button className="btn btn-outline-primary" onClick={() => this.selectGallery('engagement')}>ENGAGEMENT</button>
+                    <button className="btn btn-outline-primary" onClick={() => this.selectGallery('instagram')}>#Balls2TheWallin</button>
+                    <button className="btn btn-outline-primary" onClick={() => this.selectGallery('wedding')}>WEDDING</button>
+                </div>
 
-                    <p className="text-center" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(additionalCopy)}}></p>
+                <p className="text-center" dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(additionalCopy)}}></p>
 
-                    <div className="gallery-container">
-                        {gallery}
-                        {!gallery && (<h3>Coming Soon...</h3>)}
-                    </div>
-                </section>
-            </ScrollableAnchor>
+                <div className="gallery-container">
+                    {gallery}
+                    {!gallery && (<h3>Coming Soon...</h3>)}
+                </div>
+            </section>
         );
     }
 }

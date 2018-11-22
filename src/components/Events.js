@@ -1,6 +1,5 @@
 // react
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 // components
 import Story from "./Story";
@@ -59,19 +58,17 @@ class Events extends Component {
         }
 
         return (
-            <ScrollableAnchor id={'events'}>
-                <section className="section section-grey section-events">
-                    <div className="overlay-leaves"></div>
+            <section id={'events'} className="section section-grey section-events">
+                <div className="overlay-leaves"></div>
 
-                    <div className="container">
-                        <h2>Events</h2>
+                <div className="container">
+                    <h2>Events</h2>
 
-                        <div className="events-container">
-                            {events}
-                        </div>
+                    <div className="events-container">
+                        {events}
                     </div>
-                </section>
-            </ScrollableAnchor>
+                </div>
+            </section>
         );
     }
 }

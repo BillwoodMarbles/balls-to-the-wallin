@@ -1,6 +1,5 @@
 // react
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 // images
 import Brittney from '../assets/img/wedding-party/brittney.jpg';
@@ -215,58 +214,55 @@ class WeddingParty extends Component {
         }
 
         return (
-            <ScrollableAnchor id={'wedding_party'}>
-                <section className="section section-green section-wedding-party">
-                    <div className="overlay-green"></div>
+            <section id={'wedding_party'} className="section section-green section-wedding-party">
+                <div className="overlay-green"></div>
 
-                    <div className="container">
-                        <h2>Wedding Party</h2>
+                <div className="container">
+                    <h2>Wedding Party</h2>
 
-                        <div className="selected-container">
-                            <div className="selected selected-bride">
-                                <div className="selected-content">
-                                    <div className={`front ${this.state.selectedBrideFront ? 'active' : 'hidden'}`}>
-                                        <h4>{this.state.selectedBrideF.name}</h4>
-                                        <div className="image-block"
-                                             style={ {'backgroundImage': `url(${this.state.selectedBrideF.imgUrl})` } }>
-                                        </div>
-                                    </div>
-
-                                    <div className={`back ${this.state.selectedBrideFront ? 'hidden' : 'active'}`}>
-                                        <h4>{this.state.selectedBrideB.name}</h4>
-                                        <div className="image-block"
-                                             style={ {'backgroundImage': `url(${this.state.selectedBrideB.imgUrl})` } }>
-                                        </div>
+                    <div className="selected-container">
+                        <div className="selected selected-bride">
+                            <div className="selected-content">
+                                <div className={`front ${this.state.selectedBrideFront ? 'active' : 'hidden'}`}>
+                                    <h4>{this.state.selectedBrideF.name}</h4>
+                                    <div className="image-block"
+                                         style={ {'backgroundImage': `url(${this.state.selectedBrideF.imgUrl})` } }>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="selected selected-groom">
-                                <div className="selected-content">
-                                    <div className={`front ${this.state.selectedGroomFront ? 'active' : 'hidden'}`}>
-                                        <h4>{this.state.selectedGroomF.name}</h4>
-                                        <div className="image-block"
-                                             style={ {'backgroundImage': `url(${this.state.selectedGroomF.imgUrl})` } }>
-                                        </div>
-                                    </div>
-
-                                    <div className={`back ${this.state.selectedGroomFront ? 'hidden' : 'active'}`}>
-                                        <h4>{this.state.selectedGroomB.name}</h4>
-                                        <div className="image-block"
-                                             style={ {'backgroundImage': `url(${this.state.selectedGroomB.imgUrl})` } }>
-                                        </div>
+                                <div className={`back ${this.state.selectedBrideFront ? 'hidden' : 'active'}`}>
+                                    <h4>{this.state.selectedBrideB.name}</h4>
+                                    <div className="image-block"
+                                         style={ {'backgroundImage': `url(${this.state.selectedBrideB.imgUrl})` } }>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="party-container">
-                            {party}
+                        <div className="selected selected-groom">
+                            <div className="selected-content">
+                                <div className={`front ${this.state.selectedGroomFront ? 'active' : 'hidden'}`}>
+                                    <h4>{this.state.selectedGroomF.name}</h4>
+                                    <div className="image-block"
+                                         style={ {'backgroundImage': `url(${this.state.selectedGroomF.imgUrl})` } }>
+                                    </div>
+                                </div>
+
+                                <div className={`back ${this.state.selectedGroomFront ? 'hidden' : 'active'}`}>
+                                    <h4>{this.state.selectedGroomB.name}</h4>
+                                    <div className="image-block"
+                                         style={ {'backgroundImage': `url(${this.state.selectedGroomB.imgUrl})` } }>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </section>
-            </ScrollableAnchor>
 
+                    <div className="party-container">
+                        {party}
+                    </div>
+                </div>
+            </section>
         );
     }
 }

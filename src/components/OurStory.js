@@ -1,6 +1,5 @@
 // react
 import React, { Component } from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 // components
 import Story from "./Story";
@@ -69,14 +68,12 @@ We’re still taking care of the three, but our scenery has changed a bit. We gr
 
 
         return (
-            <ScrollableAnchor id={'our_story'}>
-                <section className="section section-our-story">
-                    <div className="container">
-                        <h2>Our Story</h2>
-                        {stories}
-                    </div>
-                </section>
-            </ScrollableAnchor>
+            <section id={'our_story'} className="section section-our-story">
+                <div className="container">
+                    <h2>Our Story</h2>
+                    {stories}
+                </div>
+            </section>
         );
     }
 }
