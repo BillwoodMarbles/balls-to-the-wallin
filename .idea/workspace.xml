@@ -49,24 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/less/partials/global.less">
+      <file leaf-file-name="Photos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Photos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="300" column="9" lean-forward="false" selection-start-line="297" selection-start-column="14" selection-end-line="300" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="136">
+              <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+              <folding>
+                <element signature="e#9#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainHero.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/MainHero.js">
+      <file leaf-file-name="global.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/less/partials/global.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-              <folding>
-                <element signature="e#9#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="339">
+              <caret line="645" column="16" lean-forward="false" selection-start-line="645" selection-start-column="16" selection-end-line="645" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -186,18 +186,18 @@
         <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/RSVP.js" />
         <option value="$PROJECT_DIR$/src/components/Events.js" />
-        <option value="$PROJECT_DIR$/src/components/Photos.js" />
         <option value="$PROJECT_DIR$/src/components/OurStory.js" />
         <option value="$PROJECT_DIR$/src/components/WeddingParty.js" />
         <option value="$PROJECT_DIR$/src/components/MainHero.js" />
         <option value="$PROJECT_DIR$/src/less/partials/hero.less" />
         <option value="$PROJECT_DIR$/src/less/modules/font.less" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/less/partials/global.less" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/components/Photos.js" />
+        <option value="$PROJECT_DIR$/src/less/partials/global.less" />
       </list>
     </option>
   </component>
@@ -256,6 +256,12 @@
               <item name="balls-to-the-wallin" type="b2602c69:ProjectViewProjectNode" />
               <item name="balls-to-the-wallin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="balls-to-the-wallin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="balls-to-the-wallin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,12 +325,12 @@
       <workItem from="1541912080337" duration="29847000" />
       <workItem from="1542123139346" duration="724000" />
       <workItem from="1542562613322" duration="20078000" />
-      <workItem from="1542846686192" duration="15669000" />
+      <workItem from="1542846686192" duration="17287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78834000" />
+    <option name="totallyTimeSpent" value="80452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -647,14 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Photos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RSVP.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -669,19 +667,6 @@
           <caret line="218" column="38" lean-forward="false" selection-start-line="218" selection-start-column="38" selection-end-line="218" selection-end-column="38" />
           <folding>
             <element signature="e#62#126#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/OurStory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#106#156#0" expanded="true" />
-            <marker date="1542862051014" expanded="true" signature="679:913" ph="..." />
-            <marker date="1542862051014" expanded="true" signature="941:1196" ph="..." />
-            <marker date="1542862051014" expanded="true" signature="1798:2356" ph="..." />
           </folding>
         </state>
       </provider>
@@ -720,14 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/global.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="300" column="9" lean-forward="false" selection-start-line="297" selection-start-column="14" selection-end-line="300" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -759,6 +736,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/OurStory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#106#156#0" expanded="true" />
+            <marker date="1542862051014" expanded="true" signature="679:913" ph="..." />
+            <marker date="1542862051014" expanded="true" signature="941:1196" ph="..." />
+            <marker date="1542862051014" expanded="true" signature="1798:2356" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Photos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="49" column="62" lean-forward="false" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+          <folding>
+            <element signature="e#9#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="645" column="16" lean-forward="false" selection-start-line="645" selection-start-column="16" selection-end-line="645" selection-end-column="16" />
           <folding />
         </state>
       </provider>

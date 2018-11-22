@@ -19,102 +19,35 @@ class Photos extends Component {
         };
     }
 
+    shufflePhotos(photos) {
+        for (let i = photos.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [photos[i], photos[j]] = [photos[j], photos[i]];
+        }
+    }
+
+    parsePhotos(photos) {
+        let parsedPhotos = [];
+
+        for (let i in photos) {
+            let photo = {
+                key: i,
+                imgUrl: photos[i]
+            };
+
+            parsedPhotos.push(photo);
+        }
+
+        return parsedPhotos;
+    }
+
     componentWillMount() {
-        const engagementPhotos = [
-            {
-                key: 1,
-                imgUrl: engagmentImages[0],
-            },
-            {
-                key: 2,
-                imgUrl: engagmentImages[1],
-            },
-            {
-                key: 3,
-                imgUrl: engagmentImages[2],
-            },
-            {
-                key: 4,
-                imgUrl: engagmentImages[3],
-            },
-            {
-                key: 5,
-                imgUrl: engagmentImages[4],
-            },
-            {
-                key: 6,
-                imgUrl: engagmentImages[5],
-            },
-            {
-                key: 7,
-                imgUrl: engagmentImages[6],
-            },
-            {
-                key: 8,
-                imgUrl: engagmentImages[7],
-            },
-            {
-                key: 9,
-                imgUrl: engagmentImages[8],
-            },
-            {
-                key: 10,
-                imgUrl: engagmentImages[9],
-            },
-            {
-                key: 11,
-                imgUrl: engagmentImages[10],
-            },
-            {
-                key: 12,
-                imgUrl: engagmentImages[11],
-            },
-            {
-                key: 13,
-                imgUrl: engagmentImages[12],
-            },
-            {
-                key: 14,
-                imgUrl: engagmentImages[13],
-            },
-            {
-                key: 15,
-                imgUrl: engagmentImages[14],
-            },
-            {
-                key: 16,
-                imgUrl: engagmentImages[15],
-            }
-        ];
+        this.shufflePhotos(engagmentImages);
+        this.shufflePhotos(hashtagImages);
 
+        const engagementPhotos = this.parsePhotos(engagmentImages);
         const weddingPhotos = [];
-        const instagramPhotos =[
-            {
-                key: 1,
-                imgUrl: hashtagImages[0]
-            },
-            {
-                key: 2,
-                imgUrl: hashtagImages[1]
-            },
-            {
-                key: 3,
-                imgUrl: hashtagImages[2]
-            },
-            {
-                key: 4,
-                imgUrl: hashtagImages[3]
-            },
-            {
-                key: 5,
-                imgUrl: hashtagImages[4]
-            },
-            {
-                key: 6,
-                imgUrl: hashtagImages[5]
-            }
-
-        ];
+        const instagramPhotos = this.parsePhotos(hashtagImages);
 
         this.setState({
             gallery: engagementPhotos,
