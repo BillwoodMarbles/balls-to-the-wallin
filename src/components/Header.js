@@ -19,7 +19,7 @@ class Header extends Component {
             <header id="header" className={`site-header ${this.props.isActive ? 'active' : ''}`}>
                 <nav className="navbar navbar-expand-md navbar-light">
                     <div className="navbar-brand">Harrison &amp; Brittney</div>
-                    <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler collapsed" id="navToggle" type="button" data-toggle="collapse" data-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
                         <div className="menu-toggle">
                             <div className="icon-bar"></div>
                         </div>
