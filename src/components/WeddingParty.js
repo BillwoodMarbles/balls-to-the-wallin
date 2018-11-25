@@ -123,7 +123,7 @@ class WeddingParty extends Component {
                 {
                     key: 3,
                     name: 'Jenna Rozanek',
-                    subtitle: 'The Maid of Honor',
+                    subtitle: 'The Maid of Honor - BFFs since elementary',
                     imgUrl: Jenna,
                     side: 'bride'
                 },
@@ -137,7 +137,7 @@ class WeddingParty extends Component {
                 {
                     key: 5,
                     name: 'Paige Pohlmeier',
-                    subtitle: 'The Newly Wed BFF',
+                    subtitle: 'BFFs since high school',
                     imgUrl: Paige,
                     side: 'bride'
                 },
@@ -151,7 +151,7 @@ class WeddingParty extends Component {
                 {
                     key: 7,
                     name: 'Brittney McCarthy',
-                    subtitle: 'The New Mom BFF',
+                    subtitle: 'BFFs since elementary',
                     imgUrl: BrittneyM,
                     side: 'bride'
                 },
@@ -165,7 +165,7 @@ class WeddingParty extends Component {
                 {
                     key: 9,
                     name: 'Nicole Zach',
-                    subtitle: 'The New Business Owner BFF',
+                    subtitle: 'BFFs since high school',
                     imgUrl: Nicole,
                     side: 'bride'
                 },
@@ -179,7 +179,7 @@ class WeddingParty extends Component {
                 {
                     key: 11,
                     name: 'Katherine Ringenberg',
-                    subtitle: 'The Snowboarding BFF',
+                    subtitle: 'BFFs since college',
                     imgUrl: Kat,
                     side: 'bride'
                 },
@@ -193,7 +193,7 @@ class WeddingParty extends Component {
                 {
                     key: 13,
                     name: 'Nikki Kohles',
-                    subtitle: 'The Social Butterfly BFF',
+                    subtitle: 'BFFs since college',
                     imgUrl: Nikki,
                     side: 'bride'
                 },
