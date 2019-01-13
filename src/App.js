@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import MainHero from "./components/MainHero";
 import OurStory from "./components/OurStory";
 import Photos from "./components/Photos";
+import Registry from "./components/Registry";
 import RSVP from "./components/RSVP";
 import WeddingParty from "./components/WeddingParty";
 
@@ -16,7 +17,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './less/main.less';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'popper.js/dist/popper.min';
-import Registration from "./components/Registration";
 
 export default class App extends Component {
   constructor() {
@@ -65,8 +65,8 @@ export default class App extends Component {
         },
         {
           key: 5,
-          anchor: 'registration',
-          title: 'Registration'
+          anchor: 'registry',
+          title: 'Registry'
         },
         {
           key: 6,
@@ -86,7 +86,7 @@ export default class App extends Component {
         <WeddingParty/>
         <Photos/>
         <Events/>
-        <Registration/>
+        <Registry/>
         <RSVP/>
         <Footer/>
       </div>
