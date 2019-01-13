@@ -371,22 +371,26 @@ a {
         border: 2px solid @brand-blue;
         z-index: -1;
 
-        animation: spin 15s infinite linear;
-        @keyframes spin {
-          100% { transform: rotate(360deg); }
-        }
+        //animation: spin 15s infinite linear;
+        //@keyframes spin {
+        //  100% { transform: rotate(360deg); }
+        //}
+        top: -5px;
+        left: -5px;
         transform-origin: 48% 50%;
       }
 
       &::after {
         border: 2px solid @brand-green;
         z-index: -1;
+        bottom: -5px;
+        right: -5px;
 
-        animation: spin2 20s infinite linear;
-        @keyframes spin2 {
-          0% { transform: rotate(120deg);}
-          100% { transform: rotate(480deg); }
-        }
+        //animation: spin2 20s infinite linear;
+        //@keyframes spin2 {
+        //  0% { transform: rotate(120deg);}
+        //  100% { transform: rotate(480deg); }
+        //}
         transform-origin: 50% 48%;
       }
     }
