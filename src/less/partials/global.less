@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 #app,
 .app {
   height: 100%;
@@ -443,6 +447,7 @@ a {
       }
 
       &::before {
+        left: auto;
         top: 5px;
         right: -7px;
       }
@@ -758,6 +763,38 @@ a {
   h3 {
     text-align: center;
     width: 100%;
+  }
+}
+
+/* REGISTRATION */
+.registration-link-container {
+  margin-top: 40px;
+
+  @media (min-width: @screen-sm-min) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .registration-link {
+    display: block;
+    text-align: center;
+
+    @media (min-width: @screen-sm-min) {
+      width: 50%;
+    }
+
+    a {
+      display: inline-block;
+    }
+
+    .target {
+      width: 220px;
+    }
+
+    .go-fund-me {
+      width: 400px;
+    }
   }
 }
 
