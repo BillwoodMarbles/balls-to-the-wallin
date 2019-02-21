@@ -11,7 +11,10 @@ class Registry extends Component {
       <section id={'registry'} className="section section-registration text-center">
         <div className="container">
           <h2>Registry</h2>
-          {/*<p>We are registering for bla bla bla</p>*/}
+          <p>
+            We have not registered for much as we are hoping to live with less so we can do more!<br />
+            Our GoFundMe link is to help us fulfill our dream of building a tiny home.
+          </p>
 
           <div className="registry-link-container">
             <div className="registry-link">
