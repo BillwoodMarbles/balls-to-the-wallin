@@ -35,7 +35,7 @@ class OurStory extends Component {
                     title: 'We Bought a Zoo',
                     imgUrl: Mountains,
                     story: `
-                        <p>Off to Lincoln, NE we went to finish our college degrees, watch husker football, and take care of THREE fur balls. Keely, our Siberian husky, came first. Then Kitten. And then we got a screaming maniac of a cat, Lucille. Probably the reason why we haven’t gotten anymore :) No, we love them all equally- but of course, I mean, Keely is the best.</p>
+                        <p>Off to Lincoln, NE we went to finish our college degrees, watch husker football, and take care of three fur balls. Keely, our Siberian husky, came first. Then Kitten. And then we got a screaming maniac of a cat, Lucille. Probably the reason why we haven’t gotten anymore :) No, we love them all equally- but of course, I mean, Keely is the best.</p>
                         <p>We’re still taking care of the three, but our scenery has changed a bit. We graduated with our bachelor’s in May of 2014 and then took the summer off to make a plan and binge watch Game of Thrones.  We road tripped across the US and landed back in Denver, Colorado.  Snowboarding being a lot of the reason we moved, Brittney had to get in on the action. She is now pretty gnarly on the mountains, thanks to Harry. We have thrown some of the best parties and have made some of the best friends. Don’t think the two are in anyway related though.. :)</p>
                     `
                 },
@@ -50,7 +50,7 @@ class OurStory extends Component {
                 },
                 {
                     key: 4,
-                    title: '12.17.18',
+                    title: '12.17.17',
                     imgUrl: NewYork,
                     story: `
                         <p>It was our last day on our vacation to New York City. It being a dream of Brittney’s to see Christmas in New York, she had an inkling that maybe an engagement would be in store. We spent the day in Central Park and even with all of the people there, we seemed to keep finding these secluded, romantic areas. When we tell the story today, Harry likes to say that Brittney was leading him to these places purposefully.</p>
