@@ -144,15 +144,24 @@ class Events extends Component {
                                 </p>
 
                                 <h5>
-                                    <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/bellevue/bvune/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-BVUNE" target="_blank">
+                                    <a href="https://www.hiexpress.com/redirect?path=rates&brandCode=EX&localeCode=en&regionCode=1&hotelCode=BVUNE&checkInDate=10&checkInMonthYear=042019&checkOutDate=12&checkOutMonthYear=042019&_PMID=99801505&GPC=JW1&viewfullsite=true"
+                                       target="_blank">
                                         Hotel - Holiday Inn Express & Suites
                                     </a>
                                 </h5>
+
                                 <p>
                                     <a href="https://goo.gl/maps/hheKkSEZJzz" target="_blank">10804 S 15th St, Bellevue, NE 68123</a><br />
                                     <a href="tel:+402-502-4500">(402) 502-4500</a><br />
                                     Block: Jurgens-Wallin Wedding<br />
                                     <i>Please make your reservations by April 10th for group rate</i>
+                                </p>
+
+                                <p>
+                                    <a href="https://www.hiexpress.com/redirect?path=rates&brandCode=EX&localeCode=en&regionCode=1&hotelCode=BVUNE&checkInDate=10&checkInMonthYear=042019&checkOutDate=12&checkOutMonthYear=042019&_PMID=99801505&GPC=JW1&viewfullsite=true"
+                                       target="_blank" className="btn btn-outline-primary">
+                                        Book Online
+                                    </a>
                                 </p>
 
                                 <h5>Things to Do</h5>
