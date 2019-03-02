@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 // images
-import Brittney from '../assets/img/wedding-party/brittney.jpg';
+import Brittney from '../assets/img/wedding-party/brit.jpg';
 import Jenna from '../assets/img/wedding-party/jenna.jpg';
 import Kat from '../assets/img/wedding-party/kat.jpg';
 import BrittneyM from '../assets/img/wedding-party/brittney-m.jpg';
