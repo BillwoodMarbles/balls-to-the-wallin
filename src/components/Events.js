@@ -135,34 +135,33 @@ class Events extends Component {
                             </div>
 
                             <div className="story-panel">
-                                <h3>The Celebration</h3>
-                                <h5>Base Lake Recreation Area</h5>
+                                <h3>The Celebration (updated)</h3>
+                                <h5>DC Centre</h5>
                                 <p>
-                                    <a href="https://goo.gl/maps/jKCuChMkKYu" target="_blank">Lake Dr. Bellevue, NE 68005</a><br />
+                                    <a href="https://goo.gl/maps/oBu191yNh537Qm8s8" target="_blank">11830 Stonegate Dr. Omaha, NE 68164</a><br />
                                     May 11th, 2019<br />
-                                    5PM - 10PM
+                                    5PM - 11PM
                                 </p>
 
                                 <h5>
-                                    <a href="https://www.hiexpress.com/redirect?path=rates&brandCode=EX&localeCode=en&regionCode=1&hotelCode=BVUNE&checkInDate=10&checkInMonthYear=042019&checkOutDate=12&checkOutMonthYear=042019&_PMID=99801505&GPC=JW1&viewfullsite=true"
-                                       target="_blank">
-                                        Hotel - Holiday Inn Express & Suites
+                                    <a target="_blank">
+                                        Hotel - Coming Soon
                                     </a>
                                 </h5>
 
                                 <p>
-                                    <a href="https://goo.gl/maps/hheKkSEZJzz" target="_blank">10804 S 15th St, Bellevue, NE 68123</a><br />
-                                    <a href="tel:+402-502-4500">(402) 502-4500</a><br />
-                                    Block: Jurgens-Wallin Wedding<br />
-                                    <i>Please make your reservations by April 10th for group rate</i>
+                                    {/*<a href="https://goo.gl/maps/hheKkSEZJzz" target="_blank">10804 S 15th St, Bellevue, NE 68123</a><br />*/}
+                                    {/*<a href="tel:+402-502-4500">(402) 502-4500</a><br />*/}
+                                    {/*Block: Jurgens-Wallin Wedding<br />*/}
+                                    {/*<i>Please make your reservations by April 10th for group rate</i>*/}
                                 </p>
 
-                                <p>
-                                    <a href="https://www.hiexpress.com/redirect?path=rates&brandCode=EX&localeCode=en&regionCode=1&hotelCode=BVUNE&checkInDate=10&checkInMonthYear=042019&checkOutDate=12&checkOutMonthYear=042019&_PMID=99801505&GPC=JW1&viewfullsite=true"
-                                       target="_blank" className="btn btn-outline-primary">
-                                        Book Online
-                                    </a>
-                                </p>
+                                {/*<p>*/}
+                                    {/*<a href="https://www.hiexpress.com/redirect?path=rates&brandCode=EX&localeCode=en&regionCode=1&hotelCode=BVUNE&checkInDate=10&checkInMonthYear=042019&checkOutDate=12&checkOutMonthYear=042019&_PMID=99801505&GPC=JW1&viewfullsite=true"*/}
+                                       {/*target="_blank" className="btn btn-outline-primary">*/}
+                                        {/*Book Online*/}
+                                    {/*</a>*/}
+                                {/*</p>*/}
 
                                 <h5>Things to Do</h5>
                                 <ul>

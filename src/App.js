@@ -86,11 +86,6 @@ export default class App extends Component {
         <WeddingParty/>
         <Photos/>
         <Events/>
-
-        {/*<section className="section section-stream">*/}
-          {/*<iframe src="https://www.youtube.com/embed/live_stream?channel=UCHrIxVUeJct0_wYWoy600kQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>*/}
-        {/*</section>*/}
-
         <Registry/>
         <RSVP/>
         <Footer/>

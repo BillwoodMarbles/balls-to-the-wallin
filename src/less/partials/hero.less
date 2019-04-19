@@ -6,21 +6,35 @@
     background-attachment: scroll;
     margin: 0;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    h1 {
-      color: @white;
-      display: none;
-      font-size: 40px;
-      position: absolute;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.85);
-      width: 100%;
+    .hero-content {
+      box-shadow: -1px 1px 5px rgba(0, 0, 0, .15);
+      background: rgba(@white, .9);
+      border-radius: 7px;
+      margin: 0 20px;
+      max-width: 400px;
+      padding: 25px;
       text-align: center;
-      top: 40%;
 
-      @media (min-width: @screen-sm-min) {
-        font-size: 55px;
-        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.85);
+      h1 {
+        color: @brand-red;
+        font-size: 24px;
+        font-family: @font-family_secondary;
+        //text-transform: uppercase;
+
+        @media (min-width: @screen-sm-min) {
+          font-size: 30px;
+        }
+      }
+
+      p {
+        color: @brand-red;
+        line-height: normal;
       }
     }
+
   }
 }
