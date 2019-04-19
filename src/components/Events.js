@@ -145,15 +145,22 @@ class Events extends Component {
 
                                 <h5>
                                     <a target="_blank">
-                                        Hotel - Coming Soon
+                                        Hotels
                                     </a>
                                 </h5>
 
                                 <p>
-                                    {/*<a href="https://goo.gl/maps/hheKkSEZJzz" target="_blank">10804 S 15th St, Bellevue, NE 68123</a><br />*/}
-                                    {/*<a href="tel:+402-502-4500">(402) 502-4500</a><br />*/}
-                                    {/*Block: Jurgens-Wallin Wedding<br />*/}
-                                    {/*<i>Please make your reservations by April 10th for group rate</i>*/}
+                                    <strong><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/omaha/omawm/hoteldetail" target="_blank">Holiday Inn Express & Suites</a></strong><br />
+                                    <a href="https://goo.gl/maps/3Q7t4Td3YkWhrmqH6" target="_blank">11818 Miami St, Omaha, NE 68164</a><br />
+                                    <a href="tel:+402-445-4445">(402) 445-4445</a><br />
+                                    <i>7 minute walk from venue</i>
+                                </p>
+
+                                <p>
+                                    <strong><a href="https://hamptoninn3.hilton.com/en/index.html" target="_blank">Hampton Inn Omaha</a></strong><br />
+                                    <a href="https://goo.gl/maps/hheKkSEZJzz" target="_blank">11201 Davenport St, Omaha, NE 68154</a><br />
+                                    <a href="tel:+402-334-4938">(402) 334-4938</a><br />
+                                    <i>7 minute drive from venue</i>
                                 </p>
 
                                 {/*<p>*/}
