@@ -157,10 +157,14 @@ class Events extends Component {
                                 </p>
 
                                 <p>
-                                    <strong><a href="https://hamptoninn3.hilton.com/en/index.html" target="_blank">Hampton Inn Omaha</a></strong><br />
-                                    <a href="https://goo.gl/maps/hheKkSEZJzz" target="_blank">11201 Davenport St, Omaha, NE 68154</a><br />
-                                    <a href="tel:+402-334-4938">(402) 334-4938</a><br />
-                                    <i>7 minute drive from venue</i>
+                                    <strong><a href="https://www.marriott.com/hotels/travel/omasi-sheraton-omaha-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank">Sheraton Omaha</a></strong><br />
+                                    <a href="https://goo.gl/maps/HiDWA5xPdrJoY8M17" target="_blank">655 N 108th Ave, Omaha, NE 68154</a><br />
+                                    <a href="tel:+402-496-0850">(402) 496-0850</a><br />
+                                    <i>
+                                        Block: Wallin Wedding<br/>
+                                        Reserve before May 1st<br />
+                                        Free shuttle to and from venue
+                                    </i>
                                 </p>
 
                                 {/*<p>*/}
