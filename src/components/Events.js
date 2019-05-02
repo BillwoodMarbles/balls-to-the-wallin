@@ -153,18 +153,20 @@ class Events extends Component {
                                     <strong><a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/omaha/omawm/hoteldetail" target="_blank">Holiday Inn Express & Suites</a></strong><br />
                                     <a href="https://goo.gl/maps/3Q7t4Td3YkWhrmqH6" target="_blank">11818 Miami St, Omaha, NE 68164</a><br />
                                     <a href="tel:+402-445-4445">(402) 445-4445</a><br />
-                                    <i>7 minute walk from venue</i>
+                                    <span className="block-info">
+                                        Block: <strong>Jurgens/Wallin Wedding</strong> or code <strong>JWW</strong><br />
+                                        7 minute walk from venue
+                                    </span>
                                 </p>
 
                                 <p>
                                     <strong><a href="https://www.marriott.com/hotels/travel/omasi-sheraton-omaha-hotel/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2" target="_blank">Sheraton Omaha</a></strong><br />
                                     <a href="https://goo.gl/maps/HiDWA5xPdrJoY8M17" target="_blank">655 N 108th Ave, Omaha, NE 68154</a><br />
                                     <a href="tel:+402-496-0850">(402) 496-0850</a><br />
-                                    <i>
-                                        Block: Wallin Wedding<br/>
-                                        Reserve before May 1st<br />
+                                    <span className="block-info">
+                                        Block: <strong>Wallin Wedding</strong><br/>
                                         Free shuttle to and from venue
-                                    </i>
+                                    </span>
                                 </p>
 
                                 {/*<p>*/}
